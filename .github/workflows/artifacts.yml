@@ -44,7 +44,7 @@ jobs:
                 name: linux
             
             - name: Test ${{ env.FILE_NAME }}
-              uses: source ./test.sh
+              run: source ./test.sh
               
     test-windows:
         runs-on: windows-latest
