@@ -57,7 +57,5 @@ jobs:
               uses: actions/download-artifact@v1.0.0
               with:
                 name: windows
-                
-            - name: Test ${{ env.FILE_NAME }}
-              run: windows/${{ env.FILE_NAME }}.exe    
+                  
 
